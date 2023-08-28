@@ -105,7 +105,7 @@ showHideDF(showDataCheck)
 # Graphs
 #############################################################################################################################################
 
-fig, axs = plt.subplots(1, 2, figsize=(11, 8))
+fig, axs = plt.subplots(1, 2, figsize=(10, 6))
 # Empleados Agrupados por Edad
 sns.set_palette("Set2")
 sns.histplot(df["Age"], ax=axs[0])
